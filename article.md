@@ -12,17 +12,17 @@ Excel is one of the most common tools for analysts. It's powerful, but cleaning 
 ### Working with Excel Data in Python
 Excel is one of the most common tools for analysts. It's powerful, but cleaning data in Excel often involves endless formulas, manual edits, and a lot of clicking around. That process can be error-prone and hard to repeat.
 
-Python offers a different path. With the **Openpyxl** library, you can treat Excel workbooks as programmatic objects --- read them, transform them with Pandas, and save the results back into a new sheet or file. This approach is faster, reproducible, and easier to maintain.
+Python offers a different path. With the Openpyxl library, you can treat Excel workbooks as programmatic objects --- read them, transform them with Pandas, and save the results back into a new sheet or file. This approach is faster, reproducible, and easier to maintain.
 
 In this tutorial, we'll take a dataset from the *How to Clean Excel Data* exercise by Breaking Into Wall Street and show how to automate the cleaning process in Python. The same transformations you would do by hand in Excel formulas can be scripted in a few lines of code.
 
 ### Why Use Python Instead of Excel?
 When you replace manual Excel cleaning with Python, you gain several advantages:
 
-1.  [**Speed** --- Pandas processes data faster than Excel formulas.]
-2.  [**Replicability** --- You can apply the same cleaning steps across new datasets without starting over.]
-3.  [**Readability** --- Python code is easier to read than long, nested formulas.]
-4.  [**Automation** --- You can run the script automatically and avoid human error.]
+1.  [Speed --- Pandas processes data faster than Excel formulas.]
+2.  [Replicability --- You can apply the same cleaning steps across new datasets without starting over.]
+3.  [Readability --- Python code is easier to read than long, nested formulas.]
+4.  [Automation --- You can run the script automatically and avoid human error.]
 
 ### Step 1: Install and Import Libraries
 ```python
